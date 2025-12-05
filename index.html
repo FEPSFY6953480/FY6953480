@@ -2,48 +2,226 @@
 
 <html>
 
-<head> 
-   <img src="WebBanner2023.png" alt="Banner" width="1200" height="300"> 
-   <h1><b>ENG0018 Computer Laboratory 2025/26</b></h1>
-      <h2>Student URN: 6953480</h2>
-   <hr>
-   <h2 style="font-family:calibri;"><b>Conference paper: IDK YET</b>
-   <hr>
-  
-   <!style for tables>
-      <style>
-         table {
-            font-family: arial, sans-serif;
-            border-colapse: collapse;
-            width: 30%;
-
-         }
-         td, th { 
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding:8px;
-        
-         }
-         
-         tr:nth-child(even) {
-            backround-color: #dddddd;
-         }
-
-
-
-
-         </style>
-
-      <style>
-         p.exl {
-            margin-left: 250px;
-         }
-         </style>
-           </head>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    
- <meta name="viewport" content="width=device-width, initial-scale=1>
- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <!-- Style for tables -->
    <style>
-      .mySlides {dislay:none;}
+      table {
+         font-family: arial, sans-serif;
+         border-collapse: collapse;
+         width: 30%;
+      }
+      
+      td, th { 
+         border: 1px solid #dddddd;
+         text-align: left;
+         padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+         background-color: #dddddd;
+      }
    </style>
-   <body style="background-color:#FFFFFF;margin-left:50px;">
+
+   <style>
+      p.ex1 {
+         margin-left: 250px;
+      }
+   </style>
+   
+   <style>
+      .mySlides {
+         display: none;
+      }
+   </style>
+</head>
+
+<body style="background-color:#FFFFFF;margin-left:50px;">
+   
+   <img src="WebBanner2023.png" alt="Banner" width="1200" height="300"> 
+   
+   <h1><b>ENG0018 Computer Laboratory 2025/26</b></h1>
+   
+   <h2>Student URN: 6953480</h2>
+   
+   <hr>
+   
+   <h2 style="font-family:calibri;"><b>Conference paper: Aerodynamic Efficiency in Modern Aircraft Wing Design</b></h2>
+   
+   <hr>
+   
+   <!-- Table of Contents -->
+   <table>
+      <tr>
+         <th><h3>Table of contents</h3></th>
+      </tr>
+      <tr>
+         <td><a href="#Abstract">Abstract</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Introduction">Introduction</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Fundamentals">Fundamental Aerodynamic Principles</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Airfoil">Airfoil Design and Optimization</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Planform">Wing Planform and Geometry</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Drag">Drag Reduction Technologies</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Computational">Computational Methods and Advanced Technologies</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Future">Future Trends and Developments</a></td>
+      </tr>
+      <tr>
+         <td><a href="#Conclusion">Conclusion</a></td>
+      </tr>
+      <tr>
+         <td><a href="#References">References</a></td>
+      </tr>
+   </table>
+   
+   <hr>
+   
+   <!-- Abstract Section -->
+   <h3 id="Abstract">Abstract</h3>
+   <p class="ex1">
+      Aerodynamic efficiency in modern aircraft wing design represents one of the most critical aspects of aerospace engineering, directly influencing fuel consumption, operational costs, and environmental impact. This paper examines fundamental principles of wing aerodynamics including lift generation, drag reduction, and optimization of lift-to-drag ratios. The evolution from conventional designs to advanced configurations incorporating winglets, laminar flow control, and composite materials is explored. Key developments such as supercritical airfoils, computational fluid dynamics applications, and future technologies including morphing wings are analyzed.
+   </p>
+   
+   <hr>
+   
+   <!-- Introduction Section -->
+   <h3 id="Introduction">Introduction</h3>
+   <p class="ex1">
+      Aircraft wing design represents a complex optimization problem where aerodynamic efficiency must be balanced against structural integrity, weight, manufacturing cost, and operational requirements (Anderson, 2017). Aerodynamic efficiency, primarily measured by the lift-to-drag ratio (L/D), determines an aircraft's range, fuel consumption, and environmental performance. Modern commercial aircraft typically achieve L/D ratios between 15 and 20, while high-performance gliders can exceed values of 60 (Raymer, 2018).
+   </p>
+   <p class="ex1">
+      The fundamental challenge involves generating sufficient lift to support aircraft weight while minimizing drag forces resisting forward motion. Lift generation occurs through pressure differentials created by wing shape and angle of attack, described by Bernoulli's principle and Newton's laws (Anderson, 2017). However, lift generation inevitably produces induced drag, a consequence of three-dimensional flow around finite-span wings. Additional drag sources include parasitic drag from skin friction and form drag from flow separation.
+   </p>
+   <p class="ex1">
+      The evolution from early fabric-covered wooden wings to contemporary designs demonstrates continuous improvements in aerodynamic efficiency. Modern wings incorporate sophisticated airfoil sections, high aspect ratios, advanced materials, and numerous drag-reduction devices that collectively improve efficiency by factors of three to four compared to early designs.
+   </p>
+   
+   <hr>
+   
+   <!-- Fundamental Aerodynamic Principles Section -->
+   <h3 id="Fundamentals">Fundamental Aerodynamic Principles</h3>
+   <p class="ex1">
+      Wing aerodynamics is governed by fundamental fluid dynamics principles, primarily described by the Navier-Stokes equations defining conservation of mass, momentum, and energy. For practical aircraft design, these equations are often simplified under assumptions of steady, incompressible flow for low-speed applications or compressible flow for high-speed aircraft.
+   </p>
+   <p class="ex1">
+      Lift generation occurs through the creation of pressure differentials between the upper and lower wing surfaces. The wing's curvature (camber) and angle of attack cause air to accelerate over the upper surface, reducing static pressure according to Bernoulli's equation. Simultaneously, the downward deflection of airflow produces an equal and opposite reaction force upward, consistent with Newton's third law (Anderson, 2017).
+   </p>
+   <p class="ex1">
+      The lift coefficient (CL) characterizes a wing's lift-generating capability and is defined as CL = L / (0.5 × ρ × V² × S), where L is lift force, ρ is air density, V is velocity, and S is wing area (Raymer, 2018). Maximum lift coefficient is limited by flow separation and stall, typically occurring at angles of attack between 12 and 16 degrees for conventional airfoils.
+   </p>
+   <p class="ex1">
+      Drag forces consist of several components: induced drag, which is an inevitable consequence of lift generation; parasitic drag, including skin friction and form drag; and wave drag, which becomes significant at transonic and supersonic speeds. Induced drag can be expressed as CDi = CL² / (π × e × AR), where e is the Oswald efficiency factor and AR is aspect ratio, illustrating the inverse relationship between aspect ratio and induced drag.
+   </p>
+   
+   <hr>
+   
+   <!-- Airfoil Design and Optimization Section -->
+   <h3 id="Airfoil">Airfoil Design and Optimization</h3>
+   <p class="ex1">
+      The airfoil section, defined by its cross-sectional shape, fundamentally determines wing performance characteristics. Traditional NACA airfoil families, developed through systematic wind tunnel testing in the early 20th century, remain widely used today (Anderson, 2017). The four-digit NACA airfoils encode maximum camber, camber position, and maximum thickness in their designation, providing designers with well-documented performance data.
+   </p>
+   <p class="ex1">
+      Modern airfoil design has evolved significantly with the advent of supercritical airfoils, developed to delay the onset of shock waves in transonic flight. Whitcomb's pioneering work at NASA in the 1960s demonstrated that flattened upper surfaces with aft-loading could increase the critical Mach number while maintaining high lift coefficients. Supercritical airfoils are now standard on commercial transport aircraft, enabling cruise speeds near Mach 0.85 with reduced wave drag (Raymer, 2018).
+   </p>
+   <p class="ex1">
+      Laminar flow airfoils represent another significant advancement, designed to maintain laminar boundary layer flow over extended chord lengths. Laminar flow exhibits significantly lower skin friction drag compared to turbulent flow, potentially reducing total drag by 10-20%. Natural laminar flow airfoils achieve this through careful pressure gradient management, while hybrid laminar flow control systems use boundary layer suction to extend laminar flow regions.
+   </p>
+   <p class="ex1">
+      Contemporary airfoil design relies heavily on computational optimization methods, using genetic algorithms, gradient-based optimization, or adjoint methods to identify optimal shapes for specific design objectives. These approaches can simultaneously optimize multiple parameters including lift, drag, moment characteristics, and off-design performance across a range of operating conditions.
+   </p>
+   
+   <hr>
+   
+   <!-- Wing Planform and Geometry Section -->
+   <h3 id="Planform">Wing Planform and Geometry</h3>
+   <p class="ex1">
+      Wing planform geometry significantly influences aerodynamic efficiency through its effects on induced drag, structural weight, and stall characteristics (Raymer, 2018). The aspect ratio, defined as the ratio of wingspan squared to wing area (AR = b²/S), represents the most influential planform parameter. High aspect ratios reduce induced drag but increase structural weight and bending moments, necessitating careful optimization.
+   </p>
+   <p class="ex1">
+      Modern transport aircraft typically employ aspect ratios between 8 and 12, balancing aerodynamic efficiency with structural practicality. High-performance sailplanes achieve aspect ratios exceeding 30, prioritizing aerodynamic efficiency over structural considerations. Conversely, fighter aircraft often feature low aspect ratios to minimize wing weight and maximize roll rate.
+   </p>
+   <p class="ex1">
+      Wing sweep angle, measured between the quarter-chord line and the aircraft centerline, delays the effects of compressibility at high subsonic speeds by reducing the effective Mach number experienced by the wing sections. Sweep angles of 25-35 degrees are typical for commercial jets cruising near Mach 0.85. However, sweep introduces aerodynamic penalties including reduced lift-curve slope and earlier stall.
+   </p>
+   <p class="ex1">
+      Taper ratio, the ratio of tip chord to root chord, influences span loading distribution and structural efficiency. Elliptical planforms theoretically provide minimum induced drag by producing constant downwash across the span, though manufacturing complexity usually favors tapered wings with taper ratios between 0.3 and 0.5. Wing twist further optimizes the spanwise lift distribution and can delay tip stall by reducing outboard angles of attack.
+   </p>
+   
+   <hr>
+   
+   <!-- Drag Reduction Technologies Section -->
+   <h3 id="Drag">Drag Reduction Technologies</h3>
+   <p class="ex1">
+      Winglets represent one of the most visible and effective drag reduction technologies implemented on modern aircraft. These vertical or near-vertical wing extensions reduce induced drag by diffusing wingtip vortices and effectively increasing the wing's aspect ratio (McLean, 2013). NASA research demonstrated that properly designed winglets could reduce induced drag by 15-20% with minimal weight penalty.
+   </p>
+   <p class="ex1">
+      Various winglet configurations have been developed, including blended winglets, raked wingtips, split-scimitar winglets, and sharklets, each optimized for specific aircraft and mission profiles. Modern computational design methods enable optimization of winglet height, cant angle, toe angle, and airfoil sections to maximize cruise efficiency while considering structural loads and off-design performance.
+   </p>
+   <p class="ex1">
+      Boundary layer management represents another critical area for drag reduction. The boundary layer, a thin region of reduced velocity adjacent to the wing surface, transitions from laminar to turbulent flow at a Reynolds-number-dependent location. Turbulent boundary layers exhibit significantly higher skin friction drag, making laminar flow maintenance desirable. Surface smoothness, pressure gradients, and suction systems influence transition location.
+   </p>
+   
+   <hr>
+   
+   <!-- Computational Methods and Advanced Technologies Section -->
+   <h3 id="Computational">Computational Methods and Advanced Technologies</h3>
+   <p class="ex1">
+      Computational Fluid Dynamics has revolutionized aircraft design by enabling detailed flow field analysis before expensive wind tunnel testing or flight testing (Anderson, 2017). CFD solves discretized forms of the Navier-Stokes equations on computational grids encompassing the wing and surrounding flow field, providing pressure, velocity, and turbulence information throughout the domain.
+   </p>
+   <p class="ex1">
+      Reynolds-Averaged Navier-Stokes methods represent the current industry standard for aerodynamic analysis. RANS simulations can accurately predict lift, drag, and moment characteristics for attached flows. Modern RANS solvers execute on parallel computing clusters, enabling million-cell meshes to resolve boundary layers and flow features.
+   </p>
+   <p class="ex1">
+      Adaptive wing technologies enable real-time optimization of wing geometry for varying flight conditions, promising improvements in efficiency, performance, and ride quality (Gudmundsson, 2014). Morphing wing concepts encompass various approaches including variable camber, twist, sweep, and span. Advanced composite materials enable aerodynamic designs previously impractical with metallic construction, providing superior strength-to-weight ratios and allowing thinner airfoil sections and higher aspect ratios.
+   </p>
+   
+   <hr>
+   
+   <!-- Future Trends and Developments Section -->
+   <h3 id="Future">Future Trends and Developments</h3>
+   <p class="ex1">
+      The pursuit of improved aerodynamic efficiency continues to drive innovation in wing design. Blended wing-body configurations integrate fuselage and wing into a unified lifting surface, potentially reducing drag by 20-30% compared to conventional configurations (McLean, 2013). Truss-braced wings, featuring ultra-high aspect ratios supported by external truss structures, promise significant fuel burn reductions for future transport aircraft.
+   </p>
+   <p class="ex1">
+      Distributed electric propulsion offers opportunities for beneficial aerodynamic interactions, particularly boundary layer ingestion to reduce overall drag. Multiple small propulsors distributed across the wing can also provide enhanced lift through propeller slipstream effects and enable novel high-lift systems.
+   </p>
+   <p class="ex1">
+      Active laminar flow control systems may become practical with advances in systems integration and reliability. Maintaining laminar flow over significant chord portions on swept wings could reduce drag substantially, translating to meaningful fuel burn reductions. Ongoing research programs continue to advance these technologies toward practical implementation.
+   </p>
+   
+   <hr>
+   
+   <!-- Conclusion Section -->
+   <h3 id="Conclusion">Conclusion</h3>
+   <p class="ex1">
+      Aerodynamic efficiency in modern aircraft wing design results from the integration of fundamental fluid mechanics principles, advanced computational methods, sophisticated manufacturing technologies, and continuous innovation. Contemporary wings achieve unprecedented performance through optimized airfoil sections, high aspect ratios, advanced materials, and drag reduction devices including winglets and laminar flow technologies.
+   </p>
+   <p class="ex1">
+      Future improvements will likely arise from revolutionary configurations such as blended wing-bodies and truss-braced wings, along with evolutionary advances including adaptive wings, active flow control, and distributed propulsion integration. The relentless pursuit of aerodynamic efficiency remains driven by economic and environmental imperatives, with each percentage improvement in L/D ratio translating to substantial fuel savings and emissions reductions across global aviation. As computational capabilities expand and materials technologies advance, the next generation of aircraft wings promises to push the boundaries of aerodynamic efficiency even further.
+   </p>
+   
+   <hr>
+   
+   <!-- References Section -->
+   <h3 id="References">References</h3>
+   <p class="ex1">
+      Anderson, J.D. (2017) <i>Fundamentals of aerodynamics.</i> 6th edn. New York: McGraw-Hill Education.
+      <br><br>
+      Gudmundsson, S. (2014) <i>General aviation aircraft design: Applied methods and procedures.</i> Oxford: Butterworth-Heinemann.
+      <br><br>
+      McLean, D. (2013) <i>Understanding aerodynamics:
